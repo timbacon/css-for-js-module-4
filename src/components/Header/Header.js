@@ -33,19 +33,19 @@ const LogoWrapper = styled.div`
 `;
 
 const MainHeader = styled.div`
-    position: relative;
-    padding: 0 32px;
+    padding: 18px 32px;
     border-bottom: 1px solid ${COLORS.gray[300]};
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: baseline;
     height: 72px;
 `;
 
 const Nav = styled.nav`
     display: flex;
-    gap: 16px;
+    gap: 48px;
     flex: 1 0 fit-content;
+    margin: 0 48px;
 `;
 
 const NavLink = styled.a`
@@ -54,7 +54,6 @@ const NavLink = styled.a`
     text-decoration: none;
     color: ${COLORS.gray[900]};
     font-weight: ${WEIGHTS.medium};
-    padding-inline: 16px;
 
     &:first-of-type {
         color: ${COLORS.secondary};
